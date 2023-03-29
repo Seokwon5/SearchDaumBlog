@@ -9,23 +9,38 @@
 /* Begin PBXBuildFile section */
 		FB597D3B29D325E8006F283D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB597D3A29D325E8006F283D /* AppDelegate.swift */; };
 		FB597D3D29D325E8006F283D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB597D3C29D325E8006F283D /* SceneDelegate.swift */; };
-		FB597D3F29D325E8006F283D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB597D3E29D325E8006F283D /* ViewController.swift */; };
-		FB597D4229D325E8006F283D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB597D4029D325E8006F283D /* Main.storyboard */; };
 		FB597D4529D325E8006F283D /* SearchDaumBlog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB597D4329D325E8006F283D /* SearchDaumBlog.xcdatamodeld */; };
 		FB597D4729D325E9006F283D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB597D4629D325E9006F283D /* Assets.xcassets */; };
 		FB597D4A29D325E9006F283D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB597D4829D325E9006F283D /* LaunchScreen.storyboard */; };
+		FB597D5329D32650006F283D /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = FB597D5229D32650006F283D /* RxCocoa */; };
+		FB597D5529D32650006F283D /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = FB597D5429D32650006F283D /* RxRelay */; };
+		FB597D5729D32650006F283D /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FB597D5629D32650006F283D /* RxSwift */; };
+		FB597D5A29D32672006F283D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FB597D5929D32672006F283D /* Kingfisher */; };
+		FB597D5C29D326B2006F283D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB597D5B29D326B2006F283D /* MainViewController.swift */; };
+		FB597D5E29D3E5B9006F283D /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB597D5D29D3E5B9006F283D /* SearchBar.swift */; };
+		FB597D6129D424A1006F283D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = FB597D6029D424A1006F283D /* SnapKit */; };
+		FB597D6329D425EA006F283D /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB597D6229D425E9006F283D /* FilterView.swift */; };
+		FB597D6529D4290D006F283D /* BlogListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB597D6429D4290D006F283D /* BlogListView.swift */; };
+		FB597D6729D42916006F283D /* BlogListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB597D6629D42916006F283D /* BlogListCell.swift */; };
+		FB597D6929D4293A006F283D /* BlogListCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB597D6829D4293A006F283D /* BlogListCellData.swift */; };
+		FB597D7029D43ABA006F283D /* AlertActionConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB597D6F29D43ABA006F283D /* AlertActionConvertible.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FB597D3729D325E8006F283D /* SearchDaumBlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchDaumBlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB597D3A29D325E8006F283D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB597D3C29D325E8006F283D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB597D3E29D325E8006F283D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FB597D4129D325E8006F283D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB597D4429D325E8006F283D /* SearchDaumBlog.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SearchDaumBlog.xcdatamodel; sourceTree = "<group>"; };
 		FB597D4629D325E9006F283D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB597D4929D325E9006F283D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB597D4B29D325E9006F283D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB597D5B29D326B2006F283D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FB597D5D29D3E5B9006F283D /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		FB597D6229D425E9006F283D /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		FB597D6429D4290D006F283D /* BlogListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogListView.swift; sourceTree = "<group>"; };
+		FB597D6629D42916006F283D /* BlogListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogListCell.swift; sourceTree = "<group>"; };
+		FB597D6829D4293A006F283D /* BlogListCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogListCellData.swift; sourceTree = "<group>"; };
+		FB597D6F29D43ABA006F283D /* AlertActionConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertActionConvertible.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +48,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB597D5A29D32672006F283D /* Kingfisher in Frameworks */,
+				FB597D5729D32650006F283D /* RxSwift in Frameworks */,
+				FB597D5529D32650006F283D /* RxRelay in Frameworks */,
+				FB597D5329D32650006F283D /* RxCocoa in Frameworks */,
+				FB597D6129D424A1006F283D /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,14 +80,59 @@
 			children = (
 				FB597D3A29D325E8006F283D /* AppDelegate.swift */,
 				FB597D3C29D325E8006F283D /* SceneDelegate.swift */,
-				FB597D3E29D325E8006F283D /* ViewController.swift */,
-				FB597D4029D325E8006F283D /* Main.storyboard */,
 				FB597D4629D325E9006F283D /* Assets.xcassets */,
 				FB597D4829D325E9006F283D /* LaunchScreen.storyboard */,
 				FB597D4B29D325E9006F283D /* Info.plist */,
 				FB597D4329D325E8006F283D /* SearchDaumBlog.xcdatamodeld */,
+				FB597D6C29D42993006F283D /* Model */,
+				FB597D6B29D42958006F283D /* View */,
 			);
 			path = SearchDaumBlog;
+			sourceTree = "<group>";
+		};
+		FB597D6A29D42945006F283D /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				FB597D6229D425E9006F283D /* FilterView.swift */,
+				FB597D6629D42916006F283D /* BlogListCell.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		FB597D6B29D42958006F283D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB597D5B29D326B2006F283D /* MainViewController.swift */,
+				FB597D6D29D43893006F283D /* Subviews */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB597D6C29D42993006F283D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB597D6829D4293A006F283D /* BlogListCellData.swift */,
+				FB597D6F29D43ABA006F283D /* AlertActionConvertible.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB597D6D29D43893006F283D /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				FB597D5D29D3E5B9006F283D /* SearchBar.swift */,
+				FB597D6E29D438F8006F283D /* BlogListView */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		FB597D6E29D438F8006F283D /* BlogListView */ = {
+			isa = PBXGroup;
+			children = (
+				FB597D6429D4290D006F283D /* BlogListView.swift */,
+				FB597D6A29D42945006F283D /* SubViews */,
+			);
+			path = BlogListView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +151,13 @@
 			dependencies = (
 			);
 			name = SearchDaumBlog;
+			packageProductDependencies = (
+				FB597D5229D32650006F283D /* RxCocoa */,
+				FB597D5429D32650006F283D /* RxRelay */,
+				FB597D5629D32650006F283D /* RxSwift */,
+				FB597D5929D32672006F283D /* Kingfisher */,
+				FB597D6029D424A1006F283D /* SnapKit */,
+			);
 			productName = SearchDaumBlog;
 			productReference = FB597D3729D325E8006F283D /* SearchDaumBlog.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +186,11 @@
 				Base,
 			);
 			mainGroup = FB597D2E29D325E8006F283D;
+			packageReferences = (
+				FB597D5129D32650006F283D /* XCRemoteSwiftPackageReference "RxSwift" */,
+				FB597D5829D32672006F283D /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				FB597D5F29D424A1006F283D /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = FB597D3829D325E8006F283D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -130,7 +207,6 @@
 			files = (
 				FB597D4A29D325E9006F283D /* LaunchScreen.storyboard in Resources */,
 				FB597D4729D325E9006F283D /* Assets.xcassets in Resources */,
-				FB597D4229D325E8006F283D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,23 +218,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB597D4529D325E8006F283D /* SearchDaumBlog.xcdatamodeld in Sources */,
-				FB597D3F29D325E8006F283D /* ViewController.swift in Sources */,
+				FB597D6529D4290D006F283D /* BlogListView.swift in Sources */,
+				FB597D7029D43ABA006F283D /* AlertActionConvertible.swift in Sources */,
 				FB597D3B29D325E8006F283D /* AppDelegate.swift in Sources */,
+				FB597D5E29D3E5B9006F283D /* SearchBar.swift in Sources */,
 				FB597D3D29D325E8006F283D /* SceneDelegate.swift in Sources */,
+				FB597D6729D42916006F283D /* BlogListCell.swift in Sources */,
+				FB597D6329D425EA006F283D /* FilterView.swift in Sources */,
+				FB597D6929D4293A006F283D /* BlogListCellData.swift in Sources */,
+				FB597D5C29D326B2006F283D /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FB597D4029D325E8006F283D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FB597D4129D325E8006F283D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FB597D4829D325E9006F283D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +370,6 @@
 				INFOPLIST_FILE = SearchDaumBlog/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,7 +397,6 @@
 				INFOPLIST_FILE = SearchDaumBlog/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -362,6 +434,61 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FB597D5129D32650006F283D /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		FB597D5829D32672006F283D /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		FB597D5F29D424A1006F283D /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FB597D5229D32650006F283D /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB597D5129D32650006F283D /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		FB597D5429D32650006F283D /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB597D5129D32650006F283D /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		FB597D5629D32650006F283D /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB597D5129D32650006F283D /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		FB597D5929D32672006F283D /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB597D5829D32672006F283D /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		FB597D6029D424A1006F283D /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB597D5F29D424A1006F283D /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		FB597D4329D325E8006F283D /* SearchDaumBlog.xcdatamodeld */ = {
